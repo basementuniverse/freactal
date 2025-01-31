@@ -1,0 +1,37 @@
+{
+  "name": "@basementuniverse/freactal",
+  "version": "1.0.0",
+  "description": "Display a fractal on your page.",
+  "scripts": {
+    "clean": "rimraf lib/",
+    "build": "npm run clean && tsc"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Gordon Larrigan <gordonlarrigan@gmail.com> (https://gordonlarrigan.com)",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basementuniverse/freactal.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "fractal",
+    "mandelbrot",
+    "julia"
+  ],
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@basementuniverse/utils": "^1.7.0",
+    "@basementuniverse/vec": "^2.2.1",
+    "react-resize-detector": "^12.0.2"
+  }
+}
