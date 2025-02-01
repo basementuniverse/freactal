@@ -6,6 +6,8 @@ Here you go, have a fractal.
 
 ![preview](preview.png "Preview")
 
+Demo: http://freactal.basementuniverse.com/
+
 ## Installation
 
 ```bash
