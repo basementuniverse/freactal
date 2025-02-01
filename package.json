@@ -1,6 +1,6 @@
 {
   "name": "@basementuniverse/freactal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Display a fractal on your page.",
   "scripts": {
     "clean": "rimraf lib/",
